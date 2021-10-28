@@ -1,6 +1,6 @@
 # Combinatorial lower bounds for the home health care routing and scheduling problem
 
-This repository contains the source code to build and solve a combinatorial lower bound model for the HHCRSP, introduced by [Mankowska et al. (2014)](). The CLB model consists of a VRPTW without the constraints that set the time window ending. More precisely, the model comprises a *multi-attribute* VRP with constraints for the earlier visit times. 
+This repository contains the source code to build and solve a combinatorial lower bound model for the HHCRSP, introduced by [Mankowska et al. (2014)](https://doi.org/10.1007/s10729-013-9243-1). The CLB model consists of a VRPTW without the constraints that set the time window ending. More precisely, the model comprises a *multi-attribute* VRP with constraints for the earlier visit times. 
 
 The working idea of such an approach is to solve a relaxed yet integer version of our problem of interest-the HHCRSP-so the solver can easily prove optimal solutions for such relaxed problem and, hopefully, producing strong bounds than the *best lower bound* from standard MIP-based solvers.
 
